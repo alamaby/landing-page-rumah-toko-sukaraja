@@ -1,0 +1,23 @@
+To create a proper favicon.ico file, you have several options:
+
+1. Online Favicon Generators:
+   - Go to https://www.favicon.cc/
+   - Or visit https://favicon.io/
+   - Upload your house SVG or create a new icon
+   - Download the generated favicon.ico file
+   - Place it in your project root directory
+
+2. Using Graphics Software:
+   - Create a 16x16 or 32x32 pixel image of your house icon
+   - Save it as a .ico file format
+   - Place it in your project root directory
+
+3. Using Free Tools:
+   - Install GIMP (free image editor)
+   - Create your house icon
+   - Export as .ico format
+
+4. Using Command Line (if ImageMagick is installed):
+   - Convert your image: magick convert favicon.png favicon.ico
+
+The SVG favicon (favicon.svg) I created will work in modern browsers, but the ICO format provides broader compatibility with older browsers.
