@@ -15,10 +15,10 @@
     <meta property="og:description" content="Disewakan ruko 2 lantai strategis di pinggir jalan utama Sukaraja Wetan, Jatiwangi, Majalengka. Listrik 5500 VA, air PDAM. Luas 3x16m, cocok untuk usaha. Harga sewa Rp1,3 Juta/bulan (nego).">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://disewakan-rumah-toko-sukaraja.vercel.app/">
-    <meta property="og:image" content="https://disewakan-rumah-toko-sukaraja.vercel.app/images/h8ppQyagUi.jpg">
+    <meta property="og:image" content="https://disewakan-rumah-toko-sukaraja.vercel.app/images/og-image.jpg">
     <meta property="og:image:alt" content="Ruko 2 Lantai Strategis di Jatiwangi Majalengka">
-    <meta property="og:image:width" content="988">
-    <meta property="og:image:height" content="928">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
     <meta property="og:site_name" content="Ruko Jatiwangi">
     <meta property="og:locale" content="id_ID">
     
@@ -26,7 +26,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Sewa Ruko 2 Lantai Strategis di Jatiwangi Majalengka">
     <meta name="twitter:description" content="Disewakan ruko 2 lantai strategis di pinggir jalan utama Sukaraja Wetan, Jatiwangi, Majalengka. Listrik 5500 VA, air PDAM. Luas 3x16m, cocok untuk usaha. Harga sewa Rp1,3 Juta/bulan (nego).">
-    <meta name="twitter:image" content="https://disewakan-rumah-toko-sukaraja.vercel.app/images/h8ppQyagUi.jpg">
+    <meta name="twitter:image" content="https://disewakan-rumah-toko-sukaraja.vercel.app/images/og-image.jpg">
     <meta name="twitter:image:alt" content="Ruko 2 Lantai Strategis di Jatiwangi Majalengka">
     
     <!-- Canonical URL -->
@@ -34,6 +34,7 @@
     
     <!-- Robots Meta Tag -->
     <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#25D366">
     
     <!-- Schema.org JSON-LD for Commercial Property -->
     <script type="application/ld+json">
@@ -43,9 +44,9 @@
         "name": "Ruko 2 Lantai Strategis di Jatiwangi Majalengka - 5500VA",
         "description": "Disewakan ruko 2 lantai strategis di pinggir jalan utama Sukaraja Wetan, Jatiwangi, Majalengka. Listrik 5500 VA, air PDAM, luas 3x16m. Cocok untuk minimarket, kafe, klinik, kantor cabang.",
         "image": [
-            "https://disewakan-rumah-toko-sukaraja.vercel.app/images/h8ppQyagUi.jpg",
-            "https://disewakan-rumah-toko-sukaraja.vercel.app/images/63297a17-4704-41fb-aacd-445b7838d0d2.jpg",
-            "https://disewakan-rumah-toko-sukaraja.vercel.app/images/55409b2e-430f-444a-927a-729a4d39911f-1.jpg"
+            "https://disewakan-rumah-toko-sukaraja.vercel.app/images/h8ppQyagUi.webp",
+            "https://disewakan-rumah-toko-sukaraja.vercel.app/images/63297a17-4704-41fb-aacd-445b7838d0d2.webp",
+            "https://disewakan-rumah-toko-sukaraja.vercel.app/images/55409b2e-430f-444a-927a-729a4d39911f-1.webp"
         ],
         "address": {
             "@type": "PostalAddress",
@@ -189,7 +190,7 @@
 
         /* Hero Section */
         .hero {
-            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('images/h8ppQyagUi.jpg');
+            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('images/h8ppQyagUi.webp');
             background-size: cover;
             background-position: center;
             height: 100vh;
@@ -288,6 +289,81 @@
             background-color: white;
         }
 
+        /* Background helpers */
+        .bg-white {
+            background-color: white;
+        }
+
+        .bg-gray {
+            background-color: #f8f9fa;
+        }
+
+        /* Detailed Description Section */
+        .description-content {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: left;
+            line-height: 1.8;
+        }
+
+        .description-content p {
+            margin-bottom: 20px;
+        }
+
+        /* FAQ Section */
+        .faq {
+            padding: 80px 0;
+            text-align: center;
+        }
+
+        .faq-list {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: left;
+        }
+
+        .faq-item {
+            background: white;
+            padding: 20px;
+            margin-bottom: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .faq-item summary {
+            font-weight: bold;
+            cursor: pointer;
+            font-size: 1.1rem;
+        }
+
+        .faq-item p {
+            margin-top: 15px;
+            color: #555;
+        }
+
+        /* Skip Link */
+        .skip-link {
+            position: absolute;
+            left: -9999px;
+            top: auto;
+            width: 1px;
+            height: 1px;
+            overflow: hidden;
+        }
+
+        .skip-link:focus {
+            position: fixed;
+            left: 0;
+            top: 0;
+            width: auto;
+            height: auto;
+            z-index: 9999;
+            background: #007bff;
+            color: white;
+            padding: 15px;
+            text-decoration: none;
+        }
+
         .price-tag {
             font-size: 2rem;
             color: #28a745;
@@ -344,6 +420,12 @@
             transform: scale(1.05);
         }
 
+        /* Gallery Item */
+        .gallery-item img:focus-visible {
+            outline: 3px solid #007bff;
+            outline-offset: -3px;
+        }
+
         /* Map Section */
         .map-section {
             padding: 80px 0;
@@ -356,6 +438,10 @@
             border-radius: 10px;
             overflow: hidden;
             box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        .map-container iframe {
+            border: 0;
         }
 
         .map-placeholder {
@@ -455,6 +541,10 @@
             position: absolute;
             top: -40px;
             right: 0;
+            background: none;
+            border: none;
+            padding: 0;
+            line-height: 1;
             color: white;
             font-size: 40px;
             font-weight: bold;
@@ -462,7 +552,8 @@
             z-index: 2001;
         }
 
-        .close:hover {
+        .close:hover,
+        .close:focus-visible {
             color: #ccc;
         }
 
@@ -511,6 +602,9 @@
     </style>
 </head>
 <body>
+    <!-- Skip to main content link for accessibility -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
     <header>
         <!-- Header content can be added here if needed -->
     </header>
@@ -560,39 +654,39 @@
                 <h2 class="section-title">Galeri Foto</h2>
                 <div class="gallery-grid">
                     <div class="gallery-item">
-                        <img src="images/63297a17-4704-41fb-aacd-445b7838d0d2.jpg" alt="Fasad Ruko 2 Lantai di Jatiwangi Majalengka" width="400" height="300" loading="lazy">
+                        <img src="images/63297a17-4704-41fb-aacd-445b7838d0d2.webp" alt="Fasad Ruko 2 Lantai di Jatiwangi Majalengka" width="400" height="300" loading="lazy" tabindex="0" role="button" aria-label="Perbesar foto: Fasad Ruko 2 Lantai di Jatiwangi Majalengka">
                     </div>
                     <div class="gallery-item">
-                        <img src="images/55409b2e-430f-444a-927a-729a4d39911f-1.jpg" alt="Area Lantai 1 Ruko untuk Usaha Minimarket atau Cafe" width="400" height="300" loading="lazy">
+                        <img src="images/55409b2e-430f-444a-927a-729a4d39911f-1.webp" alt="Area Lantai 1 Ruko untuk Usaha Minimarket atau Cafe" width="400" height="300" loading="lazy" tabindex="0" role="button" aria-label="Perbesar foto: Area Lantai 1 Ruko">
                     </div>
                     <div class="gallery-item">
-                        <img src="images/4844bb46-071d-49e6-b8f5-8204a6151aa9.jpg" alt="Area Lantai 2 Ruko Cocok untuk Gudang atau Kantor" width="400" height="300" loading="lazy">
+                        <img src="images/4844bb46-071d-49e6-b8f5-8204a6151aa9.webp" alt="Area Lantai 2 Ruko Cocok untuk Gudang atau Kantor" width="400" height="300" loading="lazy" tabindex="0" role="button" aria-label="Perbesar foto: Area Lantai 2 Ruko">
                     </div>
                     <div class="gallery-item">
-                        <img src="images/image_2025-02-23_18-10-14.png" alt="Interior Ruko Strategis Sukaraja Wetan Jatiwangi" width="400" height="300" loading="lazy">
+                        <img src="images/image_2025-02-23_18-10-14.webp" alt="Interior Ruko Strategis Sukaraja Wetan Jatiwangi" width="400" height="300" loading="lazy" tabindex="0" role="button" aria-label="Perbesar foto: Interior Ruko">
                     </div>
                     <div class="gallery-item">
-                        <img src="images/image_2025-02-23_18-11-06.png" alt="Lingkungan Sekitar Ruko Jalan Utama Majalengka" width="400" height="300" loading="lazy">
+                        <img src="images/image_2025-02-23_18-11-06.webp" alt="Lingkungan Sekitar Ruko Jalan Utama Majalengka" width="400" height="300" loading="lazy" tabindex="0" role="button" aria-label="Perbesar foto: Lingkungan Sekitar Ruko">
                     </div>
                 </div>
             </div>
         </section>
 
         <!-- Detailed Description Section -->
-        <section class="features" style="background-color: white;">
+        <section class="features bg-white">
             <div class="container">
                 <h2 class="section-title">Deskripsi Lengkap Properti</h2>
-                <div style="max-width: 800px; margin: 0 auto; text-align: left; line-height: 1.8;">
-                    <p style="margin-bottom: 20px;">
+                <div class="description-content">
+                    <p>
                         <strong>Disewakan Ruko Strategis di Jatiwangi Majalengka</strong> - Properti komersial 2 lantai dengan lokasi premium di pinggir jalan utama Sukaraja Wetan, Jatiwangi, Kabupaten Majalengka, Jawa Barat. Ruko ini menawarkan posisi strategis dengan aksesibilitas tinggi, menghadap utara, dan berada di kawasan yang ramai dengan aktivitas ekonomi.
                     </p>
-                    <p style="margin-bottom: 20px;">
+                    <p>
                         Dengan <strong>luas bangunan 3x16 meter (48 m²)</strong>, ruko ini dirancang optimal untuk berbagai jenis usaha. Lantai 1 dilengkapi area toko dengan rolling door besar, dapur, dan toilet. Lantai 2 menyediakan open space luas yang dapat difungsikan sebagai gudang penyimpanan, ruang kantor, atau area tambahan untuk operasional usaha Anda.
                     </p>
-                    <p style="margin-bottom: 20px;">
+                    <p>
                         <strong>Fasilitas Unggulan:</strong> Listrik berkapasitas besar 5500 VA memungkinkan penggunaan berbagai peralatan elektronik seperti AC multiple unit, freezer untuk usaha kuliner/minimarket, atau mesin produksi. Air PDAM lancar menjamin kebutuhan sanitasi dan operasional harian. Lokasi dekat dengan landmark penting seperti <em>Bandara Internasional Kertajati</em>, <em>Kawasan Industri Jatiwangi</em>, <em>Universitas Kuningan Kampus Jatiwangi</em>, dan pusat perbelanjaan lokal.
                     </p>
-                    <p style="margin-bottom: 20px;">
+                    <p>
                         <strong>Cocok Untuk:</strong> Minimarket/toko retail, cafe/restoran, klinik/praktek dokter, kantor cabang bank/finansial, showroom, usaha kuliner, laundry, toko bangunan, atau berbagai jenis usaha lainnya yang membutuhkan lokasi strategis dengan visibilitas tinggi.
                     </p>
                     <p>
@@ -603,33 +697,33 @@
         </section>
 
         <!-- FAQ Section -->
-        <section class="pricing" style="background-color: #f8f9fa;">
+        <section class="faq bg-gray">
             <div class="container">
                 <h2 class="section-title">Pertanyaan yang Sering Diajukan (FAQ)</h2>
-                <div style="max-width: 800px; margin: 0 auto; text-align: left;">
-                    <details style="background: white; padding: 20px; margin-bottom: 15px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-                        <summary style="font-weight: bold; cursor: pointer; font-size: 1.1rem;">❓ Berapa harga sewa ruko ini?</summary>
-                        <p style="margin-top: 15px; color: #555;">Harga sewa ruko ini adalah <strong>Rp1.300.000 per bulan</strong> dan masih bisa dinegosiasikan langsung dengan pemilik. Harga sangat kompetitif untuk lokasi strategis di jalan utama Jatiwangi.</p>
+                <div class="faq-list">
+                    <details class="faq-item">
+                        <summary>❓ Berapa harga sewa ruko ini?</summary>
+                        <p>Harga sewa ruko ini adalah <strong>Rp1.300.000 per bulan</strong> dan masih bisa dinegosiasikan langsung dengan pemilik. Harga sangat kompetitif untuk lokasi strategis di jalan utama Jatiwangi.</p>
                     </details>
-                    <details style="background: white; padding: 20px; margin-bottom: 15px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-                        <summary style="font-weight: bold; cursor: pointer; font-size: 1.1rem;">❓ Di mana lokasi tepatnya?</summary>
-                        <p style="margin-top: 15px; color: #555;">Ruko ini berlokasi di <strong>Jalan Utama Sukaraja Wetan, Jatiwangi, Majalengka, Jawa Barat</strong>. Posisi persis di pinggir jalan utama dengan akses sangat mudah, menghadap utara, dan berada di kawasan ramai dengan lalu lintas padat.</p>
+                    <details class="faq-item">
+                        <summary>❓ Di mana lokasi tepatnya?</summary>
+                        <p>Ruko ini berlokasi di <strong>Jalan Utama Sukaraja Wetan, Jatiwangi, Majalengka, Jawa Barat</strong>. Posisi persis di pinggir jalan utama dengan akses sangat mudah, menghadap utara, dan berada di kawasan ramai dengan lalu lintas padat.</p>
                     </details>
-                    <details style="background: white; padding: 20px; margin-bottom: 15px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-                        <summary style="font-weight: bold; cursor: pointer; font-size: 1.1rem;">❓ Cocok untuk jenis usaha apa saja?</summary>
-                        <p style="margin-top: 15px; color: #555;">Dengan luas 3x16m dan listrik 5500 VA, ruko ini sangat cocok untuk: <strong>minimarket, cafe/restoran, klinik/praktek dokter, kantor cabang, toko retail, usaha kuliner, laundry, showroom</strong>, atau berbagai jenis usaha lainnya yang membutuhkan lokasi strategis.</p>
+                    <details class="faq-item">
+                        <summary>❓ Cocok untuk jenis usaha apa saja?</summary>
+                        <p>Dengan luas 3x16m dan listrik 5500 VA, ruko ini sangat cocok untuk: <strong>minimarket, cafe/restoran, klinik/praktek dokter, kantor cabang, toko retail, usaha kuliner, laundry, showroom</strong>, atau berbagai jenis usaha lainnya yang membutuhkan lokasi strategis.</p>
                     </details>
-                    <details style="background: white; padding: 20px; margin-bottom: 15px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-                        <summary style="font-weight: bold; cursor: pointer; font-size: 1.1rem;">❓ Apa saja fasilitas yang tersedia?</summary>
-                        <p style="margin-top: 15px; color: #555;">Fasilitas meliputi: <strong>Listrik 5500 VA</strong> (kapasitas besar), <strong>air PDAM lancar</strong>, <strong>rolling door</strong> di lantai 1, <strong>dapur & toilet</strong>, <strong>open space luas di lantai 2</strong> untuk gudang atau kantor, dan lokasi strategis di jalan utama.</p>
+                    <details class="faq-item">
+                        <summary>❓ Apa saja fasilitas yang tersedia?</summary>
+                        <p>Fasilitas meliputi: <strong>Listrik 5500 VA</strong> (kapasitas besar), <strong>air PDAM lancar</strong>, <strong>rolling door</strong> di lantai 1, <strong>dapur & toilet</strong>, <strong>open space luas di lantai 2</strong> untuk gudang atau kantor, dan lokasi strategis di jalan utama.</p>
                     </details>
-                    <details style="background: white; padding: 20px; margin-bottom: 15px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-                        <summary style="font-weight: bold; cursor: pointer; font-size: 1.1rem;">❓ Bagaimana cara menghubungi pemilik?</summary>
-                        <p style="margin-top: 15px; color: #555;">Anda dapat menghubungi pemilik langsung melalui <strong>WhatsApp di nomor 0821-3161-1961</strong> atau klik tombol WhatsApp yang tersedia di halaman ini. Respon cepat untuk pertanyaan dan janji temu survei lokasi.</p>
+                    <details class="faq-item">
+                        <summary>❓ Bagaimana cara menghubungi pemilik?</summary>
+                        <p>Anda dapat menghubungi pemilik langsung melalui <strong>WhatsApp di nomor 0821-3161-1961</strong> atau klik tombol WhatsApp yang tersedia di halaman ini. Respon cepat untuk pertanyaan dan janji temu survei lokasi.</p>
                     </details>
-                    <details style="background: white; padding: 20px; margin-bottom: 15px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-                        <summary style="font-weight: bold; cursor: pointer; font-size: 1.1rem;">❓ Apakah ada biaya tambahan selain sewa?</summary>
-                        <p style="margin-top: 15px; color: #555;">Biaya listrik dan air PDAM ditanggung penyewa sesuai pemakaian. Untuk detail lebih lanjut mengenai ketentuan sewa, silakan hubungi pemilik langsung untuk pembahasan lengkap.</p>
+                    <details class="faq-item">
+                        <summary>❓ Apakah ada biaya tambahan selain sewa?</summary>
+                        <p>Biaya listrik dan air PDAM ditanggung penyewa sesuai pemakaian. Untuk detail lebih lanjut mengenai ketentuan sewa, silakan hubungi pemilik langsung untuk pembahasan lengkap.</p>
                     </details>
                 </div>
             </div>
@@ -648,7 +742,7 @@
             <div class="container">
                 <h2 class="section-title">Lokasi Ruko</h2>
                 <div class="map-container">
-                    <iframe src="https://www.google.com/maps/embed?pb=!4v1770801250984!6m8!1m7!1sJEWdDLPPFkEP0jCuz1vwcQ!2m2!1d-6.784569087511736!2d108.2736689720878!3f189.60585210654546!4f-7.010250724212867!5f0.4000000000000002" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!4v1770801250984!6m8!1m7!1sJEWdDLPPFkEP0jCuz1vwcQ!2m2!1d-6.784569087511736!2d108.2736689720878!3f189.60585210654546!4f-7.010250724212867!5f0.4000000000000002" width="100%" height="450" title="Peta lokasi ruko di Jalan Utama Sukaraja Wetan, Jatiwangi" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
         </section>
@@ -656,13 +750,13 @@
 
     <footer>
         <div class="container">
-            <p>&copy; 2026 Alam Aby Bashit. Hak Cipta Dilindungi.</p>
+            <p>&copy; <span id="year">2026</span> Alam Aby Bashit. Hak Cipta Dilindungi.</p>
         </div>
     </footer>
 
     <!-- Floating WhatsApp Button -->
     <div class="whatsapp-float">
-        <a href="https://wa.me/6282131611961" class="whatsapp-btn">💬</a>
+        <a href="https://wa.me/6282131611961" class="whatsapp-btn" aria-label="Hubungi pemilik via WhatsApp">💬</a>
     </div>
 
     <script>
@@ -691,9 +785,12 @@
             // Lightbox functionality
             const lightbox = document.createElement('div');
             lightbox.id = 'lightbox';
+            lightbox.setAttribute('role', 'dialog');
+            lightbox.setAttribute('aria-modal', 'true');
+            lightbox.setAttribute('aria-label', 'Galeri Foto Properti');
             lightbox.innerHTML = `
                 <div class="lightbox-content">
-                    <span class="close">&times;</span>
+                    <button type="button" class="close" aria-label="Tutup galeri foto">&times;</button>
                     <img id="lightbox-img" src="" alt="">
                     <div class="lightbox-caption"></div>
                 </div>
@@ -703,36 +800,60 @@
             const lightboxImg = document.getElementById('lightbox-img');
             const lightboxCaption = document.querySelector('.lightbox-caption');
             const closeBtn = document.querySelector('.close');
+            let lastFocusedElement = null;
+
+            function openLightbox(img) {
+                lastFocusedElement = document.activeElement;
+                lightboxImg.src = img.src;
+                lightboxCaption.textContent = img.alt;
+                lightboxImg.alt = img.alt;
+                lightbox.style.display = 'flex';
+                closeBtn.focus();
+            }
+
+            function closeLightbox() {
+                lightbox.style.display = 'none';
+                if (lastFocusedElement) {
+                    lastFocusedElement.focus();
+                    lastFocusedElement = null;
+                }
+            }
 
             // Close lightbox when clicking the X or outside the image
-            closeBtn.addEventListener('click', () => {
-                lightbox.style.display = 'none';
-            });
+            closeBtn.addEventListener('click', closeLightbox);
 
             lightbox.addEventListener('click', (e) => {
                 if (e.target === lightbox) {
-                    lightbox.style.display = 'none';
+                    closeLightbox();
                 }
             });
 
             // Close with Escape key
             document.addEventListener('keydown', (e) => {
-                if (e.key === 'Escape') {
-                    lightbox.style.display = 'none';
+                if (e.key === 'Escape' && lightbox.style.display === 'flex') {
+                    closeLightbox();
                 }
             });
 
-            // Open lightbox when gallery image is clicked
+            // Open lightbox when gallery image is clicked or activated via keyboard
             document.querySelectorAll('.gallery-item img').forEach(img => {
                 img.addEventListener('click', function(e) {
                     e.stopPropagation();
-                    lightboxImg.src = this.src;
-                    lightboxCaption.textContent = this.alt;
-                    lightbox.style.display = 'flex';
+                    openLightbox(this);
+                });
+                img.addEventListener('keydown', function(e) {
+                    if (e.key === 'Enter' || e.key === ' ') {
+                        e.preventDefault();
+                        e.stopPropagation();
+                        openLightbox(this);
+                    }
                 });
             });
 
-            // Smooth scroll for anchor links
+            // Dynamic footer year
+        document.getElementById('year').textContent = new Date().getFullYear();
+
+        // Smooth scroll for anchor links
             document.querySelectorAll('a[href^="#"]').forEach(anchor => {
                 anchor.addEventListener('click', function (e) {
                     e.preventDefault();
@@ -746,8 +867,5 @@
             });
         });
     </script>
-
-    <!-- Skip to main content link for accessibility -->
-    <a href="#main-content" style="position: absolute; left: -9999px; top: auto; width: 1px; height: 1px; overflow: hidden;" onfocus="this.style.position='fixed'; this.style.left='0'; this.style.top='0'; this.style.width='auto'; this.style.height='auto'; this.style.zIndex='9999'; this.style.background='#007bff'; this.style.color='white'; this.style.padding='15px'; this.style.textDecoration='none';">Skip to main content</a>
 </body>
 </html>

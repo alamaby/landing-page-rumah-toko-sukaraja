@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://disewakan-rumah-toko-sukaraja.vercel.app/sitemap.xml
