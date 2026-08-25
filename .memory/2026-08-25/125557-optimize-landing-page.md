@@ -31,5 +31,6 @@ Analisa & perbaikan menyeluruh landing page statis sewa ruko (single-file `index
 ## Commit Proposal
 `feat: optimize images to webp, add seo files, and improve accessibility`
 
-## Related
-- Analisa awal: repo ini adalah landing page iklan sewa ruko Jatiwangi Majalengka, CTA WhatsApp 082131611961.
+## Progress Log
+- 2026-08-25 12:55 — Optimasi selesai, verifikasi lolos.
+- 2026-08-25 13:05 — Commit & push. Push pertama ditolak (remote maju ke a1329ad: migrasi domain GitHub Pages → Vercel via PR #2/#3). Rebase menghasilkan konflik di 3 blok URL absolut index.html; diselesaikan dengan mempertahankan domain Vercel + og-image.jpg WebP baru. robots.txt & sitemap.xml ikut diarahkan ke Vercel. Final: `c19aafc` ter-push ke main.
